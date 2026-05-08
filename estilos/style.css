@@ -57,26 +57,69 @@ menu > ul > li > a:hover {
 }
 
 section.flex-content {
-    background-color: grey;
+    background-color: #EEF0FE;
     padding: 20px;
-    
+    height: 55vh;
     display: flex;
     flex-flow: column nowrap;
 }
 
 article.media-text {
     display: flex;
-    flex: row wrap;
-    justify-content: ;
+    flex-flow: row wrap-reverse;
+    align-items: center;
+  
+}
+
+article > div.text {
+    flex: 0 1 480px;
+}
+
+.text h1 {
+    font-size: 1.4em;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.text p {
+    font-size: 0.8em;
+    padding: 15px;
+    text-align: left;   
+    padding-bottom: 30px;
+}
+
+.text > a {
+    background-color: #4748C7;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    margin: 15px;
 }
 
 div.media > img {
-    width: 200px;
-    padding: 10px;
+    width: 456px;
+    padding: 15px;
+    display: block;
+    margin: auto;
     
 }
 
-section > article {
-    border: 2px dashed green;
+section.servicos > h1, p {
+    text-align: center;
+    padding: 15px;
+}
+
+div.cards {
+    background-color: #4748C7;
+    display: block;
+}
+
+div.card {
+    text-align: center;
+    padding: 10px;
+    border: 2px dashed red;
+    justify-content: center;
+    
 }
 

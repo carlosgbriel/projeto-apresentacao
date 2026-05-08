@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Digital</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <header>
+        <h1>Start Digital</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul> 
+        </menu>
+    </header>
+    <main>
+        <section class="flex-content">
+            <article class="media-text">
+                <div class="text">
+                    <h1>Soluções dinâmicas para o seu negócio</h1>
+                    <p>Ajudamos empresas a crescerem com <strong>estratégias digitais inteligentes e resultados reais</strong></p>
+                </div>
+                <div class="media">
+                    <img src="imagens/dashboard.png" alt="Marketing Digital">
+                </div>
+            </article>
+        </section>
+        <section class="serviços">
+            
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

@@ -60,7 +60,7 @@ menu > ul > li > a:hover {
 section.flex-content {
     background-color: #EEF0FE;
     padding: 20px;
-    height: 55vh;
+    height: 60vh;
     display: flex;
     flex-flow: column nowrap;
 }
@@ -143,6 +143,4 @@ div.card {
     border-radius: 35px;
 }
 
-div.card > p {
 
-}

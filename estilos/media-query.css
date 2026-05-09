@@ -2,4 +2,131 @@
 
 /* Todas as demais midias */
 
-/* Device Breakpoints */
+/* Device Breakpoints 
+
+telas pequennas até 600px
+celular 600px até 768px
+tablet 768px ate 992px
+desktop 992px ate 1200px
+grandes telas acima de 1200px
+
+*/
+
+@media screen and (min-width: 768px) {
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    span#burguer {
+        display: none;
+    }   
+
+    menu {
+        display: flex;
+        padding: 10px;
+        border-radius:  20px;
+        border: 2px dashed green;
+    
+    }
+
+
+    menu > ul > li {
+        display: inline-block;
+        
+    }
+
+    menu > ul > li > a {
+        border-radius: 10px;        
+        margin: 0px 20px;
+        width: 80px;
+    }
+
+    section.flex-content {
+        background-color: #EEF0FE;
+        padding: 20px;
+        height: 60vh;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    article.media-text {
+        display: flex;
+        flex-flow: row nowrap;
+    
+    }
+
+    section.flex-content {
+        height: 40vh;
+        border: 2px dashed red;
+    }
+
+    .media-text {
+        padding: 40px;
+        width: 200vh;
+        border: 2px dashed green;
+        justify-content: space-between;
+        
+    }
+
+    .text > h1 {
+        font-size: 2.3em;
+        text-align: left;
+        width: 360px;
+        border: 2px dashed red;
+    }
+
+    .text > p {
+        border: 2px dashed blue;
+        font-size: 1em;
+        width: 280px;
+        text-align: left;
+        padding: 0px;
+    }
+
+    #saibamais {
+        display: block;
+        border: 2px dashed red;
+        width: 150px;
+        text-align: center;
+    }
+
+    div.media {  
+        display: flex;
+        flex: row nowrap;
+        margin: 0px; 
+        border: 2px dashed black;
+    
+    }
+
+    div.media > img {
+        width: 400px;
+    }
+
+    .servicos {
+        border: 2px dashed brown;
+        display: block;
+    }
+
+    div.cards {
+        border: 2px dashed yellow;
+        display: flex;
+        flex-direction: row;
+        height: 35vh;
+        gap: 15px;
+    }
+
+    div.card {
+        height: 300px;
+        width: 768px;
+        line-height: 20px;
+    }
+
+    div.card > h1 {
+        line-height: 30px;
+    }
+
+}

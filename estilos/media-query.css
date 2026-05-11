@@ -115,18 +115,39 @@ grandes telas acima de 1200px
         border: 2px dashed yellow;
         display: flex;
         flex-direction: row;
+        align-items: center;
         height: 35vh;
         gap: 15px;
+        justify-content: center;
+        
     }
 
     div.card {
-        height: 300px;
-        width: 768px;
-        line-height: 20px;
+        height: 200px;
+        flex: 0 2 500px;
+        min-height: 230px;
+        
+        overflow: hidden;
+        box-sizing: border-box;
     }
 
     div.card > h1 {
         line-height: 30px;
+        word-break: break-word
     }
 
+
+    div.card >  p {
+        word-break: break-word
+    }
+}
+
+@media screen and (min-width: 992px) {
+    div.card {
+        min-height: 0;
+    }
+
+    div.cards {
+        gap: 10px;
+    }
 }

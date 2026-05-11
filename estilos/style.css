@@ -121,7 +121,8 @@ section.servicos > p {
 
 div.cards {
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
+    align-items: center;
     gap: 30px;
 }
 
